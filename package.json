@@ -60,14 +60,14 @@
             "body_font": {
                 "type": "select",
                 "options": ["Modern sans-serif", "Elegant serif"],
-                "default": "Elegant serif"
+                "default": "Modern sans-serif"
             },
             "white_publication_logo_for_transparent_header": {
                 "type": "image"
             },
             "email_signup_text": {
                 "type": "text",
-                "default": "Don't miss out on the latest news. Sign up now to get access to the library of members-only articles."
+                "default": "Sign up now for more like these."
             },
             "footer_text": {
                 "type": "text"
