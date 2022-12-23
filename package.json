@@ -1,7 +1,7 @@
 {
     "name": "headline-markstos",
     "description": "A Ghost theme",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "private": true,
     "engines": {
         "ghost": ">=5.0.0"
@@ -52,6 +52,15 @@
                 "options": ["Light", "Accent color", "Dark"],
                 "default": "Light"
             },
+            "color_scheme": {
+                "type": "select",
+                "options": [
+                    "Light",
+                    "Dark",
+                    "Auto"
+                ],
+                "default": "Light"
+            },
             "title_font": {
                 "type": "select",
                 "options": ["Modern sans-serif", "Elegant serif"],
@@ -67,7 +76,7 @@
             },
             "email_signup_text": {
                 "type": "text",
-                "default": "Sign up now for more like these."
+                "default": "Don't miss out on the latest news. Sign up now to get access to the library of members-only articles."
             },
             "footer_text": {
                 "type": "text"
