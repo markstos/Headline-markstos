@@ -20,6 +20,13 @@ which make it suitable to use for a personal blog.
 * Narrower top bar
 * Custom archive.hbs page to list every post. To use it, add a route to it in routes.yml and link it navigation.
 
+`routes.yaml` example:
+```yaml
+routes:
+  /archive/:
+    template: archive
+```
+
 While the theme free to use, I maintain it for personal use and no compatibility gurantees are made
 about future updates.
 
