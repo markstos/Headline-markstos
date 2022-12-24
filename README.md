@@ -9,10 +9,16 @@ Headline is a [Ghost](https://github.com/TryGhost/Ghost) theme built from the gr
 This fork of the headline theme was created to add dark mode as well as other customizations
 which make it suitable to use for a personal blog.
 
- * Featured content rather than Latest content is highlighted on the top of the front page.
-   The latest content for different tags still appears below.
- * A custom "archive" page displays all content arranged by tag.
- * Author photos and names are removed from post, since a personal blog has one author.
+* Allows admin to support Light, Dark or Auto in Settings
+* Auto mode sets the color scheme based on user preference
+* Titles on tag pages are “Title Case” instead of UPPERCASE.
+* “Latest” items on home page has been replaced with “Featured” items.
+* Since there’s only one author, author photos and bylines have been hidden.
+* “Reading time” was hidden
+* Less whitespace in the footer
+* Smaller “header” area
+* Narrower top bar
+* Custom archive.hbs page to list every post. To use it, add a route to it in routes.yml and link it navigation.
 
 While the theme free to use, I maintain it for personal use and no compatibility gurantees are made
 about future updates.
@@ -65,6 +71,11 @@ From the root directory of the Headline repo:
 This will produce a zip file at `dist/headline-markstos.zip`
 
 Then it can be uploaded through the Ghost admin area, where it will be recognized as the "headline-markstos" theme.
+
+## Support for headline-markstos
+
+No direct support is provided. You can ask the community at https://forum.ghost.org/ sometimes
+I answer Ghost questions there.
 
 # Instructions
 
