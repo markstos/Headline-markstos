@@ -1,7 +1,7 @@
 {
     "name": "headline-markstos",
     "description": "A Ghost theme",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "private": true,
     "engines": {
         "ghost": ">=5.0.0"
