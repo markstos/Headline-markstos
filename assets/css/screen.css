@@ -1022,8 +1022,15 @@ html.dark-mode .gh-content :not(pre) > code {
     color: var(--color-wash);
 }
 
-html.dark-mode .gh-content a:not(.kg-btn):not(.kg-nft-card-container):not(.kg-product-card-button):not(.kg-header-card-button) {
+html.dark-mode .gh-content a:not(.kg-btn):not(.kg-nft-card-container):not(.kg-product-card-button):not(.kg-header-card-button):not(.kg-bookmark-container) {
     color: #fff;
+}
+
+html.dark-mode .kg-bookmark-card .kg-bookmark-container,
+html.dark-mode .kg-bookmark-card .kg-bookmark-container:hover {
+    color: rgba(255, 255, 255, 0.85);
+    background: color-mod(var(--color-darkmode) l(+8%));
+    border-color: rgba(255, 255, 255, 0.1);
 }
 
 html.dark-mode .gh-content strong {
@@ -1222,8 +1229,15 @@ html.dark-mode h1, h2, h3, h4, h5, h6 {
         color: var(--color-wash);
     }
 
-    html.auto-color .gh-content a:not(.kg-btn):not(.kg-nft-card-container):not(.kg-product-card-button):not(.kg-header-card-button) {
+    html.auto-color .gh-content a:not(.kg-btn):not(.kg-nft-card-container):not(.kg-product-card-button):not(.kg-header-card-button):not(.kg-bookmark-container) {
         color: #fff;
+    }
+
+    html.auto-color .kg-bookmark-card .kg-bookmark-container,
+    html.auto-color .kg-bookmark-card .kg-bookmark-container:hover {
+        color: rgba(255, 255, 255, 0.85);
+        background: color-mod(var(--color-darkmode) l(+8%));
+        border-color: rgba(255, 255, 255, 0.1);
     }
 
     html.auto-color .gh-content strong {
